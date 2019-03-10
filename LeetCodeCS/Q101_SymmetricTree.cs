@@ -2,20 +2,6 @@
 
 namespace LeetCodeCS
 {
-    class MainClass
-    {
-        public static void Main(string[] args)
-        {
-            TreeNode t = new TreeNode(1);
-            t.left = new TreeNode(2);
-            t.right = new TreeNode(2);
-
-            Solution s = new Solution();
-            var ans = s.IsSymmetric(t);
-            Console.WriteLine(ans);
-
-        }
-    }
 
     public class Solution
     {
