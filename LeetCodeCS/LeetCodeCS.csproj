@@ -35,6 +35,7 @@
     <Compile Include="Q101_SymmetricTree.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TreeNode.cs" />
+    <Compile Include="Q438_FindAllAnagrams.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
