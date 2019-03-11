@@ -11,17 +11,17 @@ namespace LeetCodeCSQ438
         public Q438_FindAllAnagrams()
         {
         }
-        public static void Main(string[] args)
-        {
-            var s = new Solution();
-            //var ans = s.("abc", "a");
-            var setAna = s.FindAnagrams("abc", "a");
+        //public static void Main(string[] args)
+        //{
+        //    var s = new Solution();
+        //    //var ans = s.("abc", "a");
+        //    var setAna = s.FindAnagrams("abc", "a");
 
-            foreach (int s1 in setAna)
-            {
-                Console.WriteLine(s1);
-            }
-        }
+        //    foreach (int s1 in setAna)
+        //    {
+        //        Console.WriteLine(s1);
+        //    }
+        //}
     }
 
 

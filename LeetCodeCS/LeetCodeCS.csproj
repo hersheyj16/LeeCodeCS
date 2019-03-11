@@ -37,6 +37,7 @@
     <Compile Include="TreeNode.cs" />
     <Compile Include="Q438_FindAllAnagrams.cs" />
     <Compile Include="Driver.cs" />
+    <Compile Include="Q53_MaxSubArray.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
