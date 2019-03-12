@@ -9,18 +9,7 @@ namespace LeetCodeCS
         public Q53_MaxSubArray()
         {
         }
-        public static void Main(string[] args)
-        {
-            Console.WriteLine("hi");
-            //int[] input = { -2, 1, -3, 4, -1, 2, 1, -5, 4 };
-            int[] input = { -1};
-            int ans = MaxSubArray(input);
-            Console.WriteLine(ans);
-
-            //Object[] someArr = { 1,2, "d","3"};
-            //var output = someArr.Slice(0, 3);
-            //Console.WriteLine(output.Length);
-        }
+      
 
         private static int MaxSubArray(int[] input)
         {

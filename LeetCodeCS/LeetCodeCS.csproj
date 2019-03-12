@@ -38,6 +38,7 @@
     <Compile Include="Q438_FindAllAnagrams.cs" />
     <Compile Include="Driver.cs" />
     <Compile Include="Q53_MaxSubArray.cs" />
+    <Compile Include="Q977_SquaresSortedArr.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
