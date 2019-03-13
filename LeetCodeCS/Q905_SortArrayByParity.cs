@@ -8,14 +8,14 @@ namespace LeetCodeCS
         public Q905_SortArrayByParity()
         {
         }
-        public static void Main(string[] args) {
-            Console.WriteLine("hello");
-            int[] input = { 3, 1, 2, 4 };
-            var ans = SortArrayByParity(input);
-            foreach (int i in ans) {
-                Console.WriteLine(i);
-                }
-        }
+        //public static void Main(string[] args) {
+        //    Console.WriteLine("hello");
+        //    int[] input = { 3, 1, 2, 4 };
+        //    var ans = SortArrayByParity(input);
+        //    foreach (int i in ans) {
+        //        Console.WriteLine(i);
+        //        }
+        //}
 
         public static int[] SortArrayByParity(int[] A)
         {
@@ -45,7 +45,6 @@ namespace LeetCodeCS
                 while (oddIt.MoveNext()) {
                     Console.WriteLine("debug odd" + oddIt.Current);
                     ans[j] = oddIt.Current;
-
                     j++;
                 }
 
