@@ -4,12 +4,36 @@ namespace LeetCodeCS
     public class Q657_RobotReturnToOrigin
     {
         public static void Main(string[] args) {
-            var ans = JudgeCircle("LL");
+            var ans = JudgeCircle("LRL");
             Console.WriteLine(ans);
         }
         public static bool JudgeCircle(string moves)
         {
-            return true;
+            int x = 0;
+            int y = 0;
+
+            for (int i = 0; i < moves.Length; i++) {
+                string command = moves.Substring(i, 1);
+                switch (command)
+                {
+                    case "L":
+                        x = x-1;
+                        break;
+                    case "R":
+                        x = x + 1;
+                        break;
+                    case "U":
+                        y = y + 1;
+                        break;
+                    case "D":
+                        y = y - 1;
+                        break;
+                    default:
+                        break;
+                }
+
+            }
+            return x == 0 && y == 0;
 
         }
     }
