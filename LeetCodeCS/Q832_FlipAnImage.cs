@@ -3,14 +3,7 @@ namespace LeetCodeCS
 {
     public class Q832_FlipAnImage
     {
-        public static void Main(string[] args)
-        {
-            int[] p = { 1, 1, 0 };
-            int[][] input = { p };
-            var ans = FlipAndInvertImage(input);
-       
-            Console.WriteLine(ans);
-        }
+
 
         private static object FlipAndInvertImage(int[][] A)
         {
