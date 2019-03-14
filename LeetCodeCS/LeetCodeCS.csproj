@@ -42,6 +42,8 @@
     <Compile Include="Q961_RepeatNTimes.cs" />
     <Compile Include="Q905_SortArrayByParity.cs" />
     <Compile Include="Q657_RobotReturnToOrigin.cs" />
+    <Compile Include="Q832_FlipAnImage.cs" />
+    <Compile Include="Properties\Q942_DIStringMatch.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
