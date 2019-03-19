@@ -44,6 +44,7 @@
     <Compile Include="Q657_RobotReturnToOrigin.cs" />
     <Compile Include="Q832_FlipAnImage.cs" />
     <Compile Include="Properties\Q942_DIStringMatch.cs" />
+    <Compile Include="Q944_DeleteColToMakeSort.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -5,14 +5,6 @@ namespace LeetCodeCS.Properties
 {
     public class Q942_DIStringMatch
     {
-        public static void Main(string[] args)
-        {
-    
-            var ans = DiStringMatch("IDID");
-
-            Console.WriteLine(ans);
-        }
-
         public static int[] DiStringMatch(string S)
         {
             int[] ans = new int[S.Length + 1];
