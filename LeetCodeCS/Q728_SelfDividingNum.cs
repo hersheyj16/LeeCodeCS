@@ -6,18 +6,6 @@ namespace LeetCodeCS
 {
     public class Q728_SelfDividingNum
     {
-        public static void Main(string[] args)
-        {
-
-
-            IList<int> ans = SelfDividingNumbers(1, 22);
-            foreach (var item in ans)
-            {
-                Console.WriteLine(item);
-
-            }
-        }
-
 
         public static IList<int> SelfDividingNumbers(int left, int right)
         {
