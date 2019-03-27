@@ -47,6 +47,7 @@
     <Compile Include="Q944_DeleteColToMakeSort.cs" />
     <Compile Include="Q728_SelfDividingNum.cs" />
     <Compile Include="Q538_ConvertBSTTreeGreater.cs" />
+    <Compile Include="Q852_PeakMt.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
